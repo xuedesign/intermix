@@ -1,0 +1,105 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Date: 2014/09   
+
+***********************************************************************************************
+		1 通用
+		2 index 首頁
+		    2.1 header 頂端區塊
+			2.2 Banner 區塊
+			2.3 footer 版權列區塊
+		3 about 關於我們
+		4 factory map 工廠
+		5 work
+		6 exhibition 展覽
+		7 contact 聯絡我們
+		8 403、404頁
+***********************************************************************************************/
+
+/* 1. 通用 
+===============================================================================================*/
+body{
+	margin: 0;
+	padding:0;
+	background-color:#FFF
+	font-family:/*"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU",*/Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:20px;
+	color:#535353}
+a:link {text-decoration:underline; color:#2a2a2a}
+a:visited {text-decoration:underline; color:#8c8c8c}
+a:hover {text-decoration:none; color:#b07348}
+form{margin:0; padding:0}
+image{border:0}
+
+.clean{ clear:both}
+.hidden{ display:none}
+
+/* 2 index
+===============================================================================================*/
+#wrap{ display:block; width:775px; margin:0 auto}
+
+	/* 2.1 header
+-----------------------------------------------------------------------------------------------*/
+header{ display:block; width:775px; padding:10px 0}
+h1 a{ display:block;
+	width:135px;
+	height:130px;
+	float:left;
+	background:url(../images/logo.jpg);
+	text-indent:-9999px}
+#box_top nav{ display:block; width:640px; float:right}
+#box_top ul{ display:block; padding:70px 0 0 17px}
+#box_top li a{ display:block; float:left; margin:0 10px; height:35px; text-indent:-9999px}
+.nav_01{ display:block;
+	width:85px;
+	background:url(../images/bg_nav.png) no-repeat}
+.nav_02{ display:block;
+	width:165px;
+	background:url(../images/bg_nav.png) 0 -35px no-repeat}
+.nav_03{ display:block;
+	width:85px;
+	background:url(../images/bg_nav.png) 0 -70px no-repeat}
+.nav_04{ display:block;
+	width:85px;
+	background:url(../images/bg_nav.png) 0 -105px no-repeat}
+.nav_05{ display:block;
+	width:85px;
+	background:url(../images/bg_nav.png) 0 -140px no-repeat}
+.nav_01:hover{
+	background:url(../images/bg_nav.png) 0 -175px no-repeat}
+.nav_02:hover{
+	background:url(../images/bg_nav.png) 0 -210px no-repeat}
+.nav_03:hover{
+	background:url(../images/bg_nav.png) 0 -245px no-repeat}
+.nav_04:hover{
+	background:url(../images/bg_nav.png) 0 -280px no-repeat}
+.nav_05:hover{
+	background:url(../images/bg_nav.png) 0 -315px no-repeat}
+
+	/* 2.2 Banner
+-----------------------------------------------------------------------------------------------*/
+#container{}
+#banner{}
+#visitors{ padding-top:50px; font-size:0.75em; text-align:center}
+
+	/* 2.3 footer
+-----------------------------------------------------------------------------------------------*/
+footer{}
+#sub_nav{}
+#copyright{}
+
+/* 3 about
+===============================================================================================*/
+/* 4 factory map
+===============================================================================================*/
+/* 5 work
+===============================================================================================*/
+/* 6 exhibition
+===============================================================================================*/
+/* 7 contact
+===============================================================================================*/
+/* 8 403、404頁
+===============================================================================================*/
