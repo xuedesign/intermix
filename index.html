@@ -2,20 +2,21 @@
 <html>
 <head>
 <meta charset="utf-8" lang="zh-tw">
-<meta name="description" content="輕工藝網"/>
-<meta name="keywords" content="工藝"/>
-<meta name="Author" content="Elmo Wu" />
+<meta name="description" content="暖工業、輕工藝計畫，是一種工業與工藝的混血，2014年集合微著設計與拙茁文創，共同開發一系列銅熨鈑結合竹材質的生活家飾."/>
+<meta name="keywords" content="工藝,工業,微著設計,拙茁文創,生活家飾,混合媒材,東方美學"/>
+<meta name="Author" content="Intermix Project" />
 <link rel="shortcut icon"  href="images/favicon.ico"/>
 <link rel="icon" href="images/favicon.ico"/>
-<title>輕工藝網</title>
+<title>暖工業‧輕工藝計畫 Intermix Project</title>
 <link rel="stylesheet" href="css/reset.css">
-<link href="css/xuedesign_201409.css" rel="stylesheet"/>
-<script src="https://code.jquery.com/jquery-git1.min.js"></script> 
+<link rel="stylesheet" href="css/xuedesign_201410.css"/>
+<link rel="stylesheet" href="css/flexslider.css"/>
+<script src="http://code.jquery.com/jquery.min.js"></script>
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!--[if lte IE 6]>
-<script src="//letskillie6.googlecode.com/svn/trunk/2/zh_TW.js"></script>
+<script src="http://letskillie6.googlecode.com/svn/trunk/2/zh_TW.js"></script>
 <![endif]-->
 </head>
 
@@ -25,12 +26,17 @@
         	<div id="box_top">
               <h1><a href="index.html" title="返回首頁">輕工藝網</a></h1>
               <nav>
-                  <ul>  
-                      <li><a href="content/about.html" class="nav_01">about</a></li>
-                      <li><a href="content/factory_list.html" class="nav_02">processing factory</a></li>
-                      <li><a href="content/portfolio_list.html" class="nav_03">portfolio</a></li>
-                      <li><a href="content/news_list.html" class="nav_04">news</a></li>
-                      <li><a href="content/contact.html" class="nav_05">contact</a></li>
+                  <ul class="navigation">  
+                      <li><a href="#" title="關於計畫" class="nav_01">about</a>
+                          <ul>
+                          	  <li><a href="content/project.html" title="計畫介紹">Project</a></li>
+                              <li><a href="content/designers.html" title="設計團隊">Designer</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="content/factory_list.html" title="加工廠介紹" class="nav_02">processing factory</a></li>
+                      <li><a href="content/portfolio_list.html" title="作品介紹" class="nav_03">portfolio</a></li>
+                      <li><a href="content/news_list.html" title="最新消息" class="nav_04">news</a></li>
+                      <li><a href="content/contact.html" title="聯絡我們" class="nav_05">contact</a></li>
                   </ul>
               </nav>
             <br class="clean">
@@ -38,22 +44,38 @@
         </header>
 
         <div id="container">
-        	<div id="banner"><img src="images/pic_banner-01.jpg" width="775" height="315" alt="*"></div>
-        	<div id="visitors">瀏覽人數：1000人次</div>
-        </div>
-
-<!--        <footer>
-        	<div id="sub_nav">
-            	<ul>
-                	<li><a href="content/about.html">About</a></li>
-                    <li><a href="content/factory_list.html">Processing Factory</a></li>
-                    <li><a href="content/portfolio_list.html">Portfolio</a></li>
-                    <li><a href="content/news_list.html">News</a></li>
-                    <li><a href="content/contact.html">Contact</a></li>
-                </ul>
+        	<div id="banner" class="flexslider">
+                <h3>重點活動</h3>
+                 <ul class="slides">
+                    <li><img src="images/pic_banner-01.jpg" alt="*"></li>
+                    <li><img src="images/pic_banner-02.jpg" alt="*"></li>
+                    <li><img src="images/pic_banner-03.jpg" alt="*"></li>
+                    <li><img src="images/pic_banner-04.jpg" alt="*"></li>
+                    <li><img src="images/pic_banner-05.jpg" alt="*"></li>
+                 </ul>
             </div>
-            <div id="copyright">copyright&copy;2014 W.L</div>
-        </footer>-->
+        	<div id="visitors">
+			    <span class="visitors_left">瀏覽人數：</span>
+				<script src="http://counter.i2yes.com/i2yesCounter.js"></script>
+                <script>
+				  document.write(i2yesCounter.render({ y:'counter',
+				  p:'demo2', //改成您專有的計數器名稱,注意別跟別人一樣
+				  v:'www.intermix-object.tw', //您的網址,不對的話無法使用,也可以用沒有 www 的網址,如 i2yes.com
+				  d:7, //數字位數
+				  r:1, //1=不接受Reload,0=Reload會+1
+				  t:'font088', //字型 font001 - font156 可用
+				  s:0,  //指定大小,只能輸入數字例;100, 0為不指定尺寸(原寸)
+				  n:0	//指定起始的數字
+				  }));
+                </script>
+                <span class="visitors_right">人次</span>
+            </div>
+        </div>
+        <p class="hidden">網站製作：開始設計工作室 xuedesign studio <a href="" title="" rel="external">http://www.xuedesign.tw/</a></p>
     </div>
+    
+<script src="script/jquery.flexslider.js"></script>
+<script> $(window).load(function(){$(".flexslider").flexslider({animation:"slide"})}); </script>      
+<script src="script/web_set.js"></script>  
 </body>
 </html>

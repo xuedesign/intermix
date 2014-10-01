@@ -2,20 +2,8 @@
 
 	Title: CSS for xuedeisgn
 	Author: Elmo Wu (by xuedesign studio)
-	Date: 2014/09   
+	Date: 2014/10   
 
-***********************************************************************************************
-		1 通用
-		2 index 首頁
-		    2.1 header 頂端區塊
-			2.2 Banner 區塊
-			2.3 footer 版權列區塊
-		3 about 關於我們
-		4 factory map 工廠
-		5 work
-		6 exhibition 展覽
-		7 contact 聯絡我們
-		8 403、404頁
 ***********************************************************************************************/
 
 /* 1. 通用 
@@ -24,7 +12,7 @@ body{
 	margin: 0;
 	padding:0;
 	background-color:#FFF
-	font-family:/*"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU",*/Arial, Helvetica, sans-serif;
+	font-family:"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU",Arial, Helvetica, sans-serif;
 	font-size:100%;
 	line-height:20px;
 	color:#535353}
@@ -43,53 +31,96 @@ image{border:0}
 
 	/* 2.1 header
 -----------------------------------------------------------------------------------------------*/
-header{ display:block; width:775px; padding:10px 0}
+header{ display:block; width:775px; padding:10px 0 14px 0}
 h1 a{ display:block;
 	width:135px;
 	height:130px;
 	float:left;
 	background:url(../images/logo.jpg);
 	text-indent:-9999px}
-#box_top nav{ display:block; width:640px; float:right}
-#box_top ul{ display:block; padding:70px 0 0 17px}
-#box_top li a{ display:block; float:left; margin:0 10px; height:35px; text-indent:-9999px}
-.nav_01{ display:block;
+nav{ 
+    display:block;
+	float:right; 
+	width:623px;
+	padding:70px 0 0 17px}
+	
+.navigation li { position: relative; float: left}
+.navigation li a{display: block; height:35px; margin-left:23px}
+.nav_01, .nav_01:hover, .nav_02, .nav_02:hover, .nav_03, .nav_03:hover, .nav_04, .nav_04:hover, .nav_05, .nav_05:hover{
+	display:block;
+	background:url(../images/bg_nav.png) no-repeat;
+	text-indent:-9999px}	
+.nav_01{
 	width:85px;
-	background:url(../images/bg_nav.png) no-repeat}
-.nav_02{ display:block;
-	width:165px;
-	background:url(../images/bg_nav.png) 0 -35px no-repeat}
-.nav_03{ display:block;
-	width:85px;
-	background:url(../images/bg_nav.png) 0 -70px no-repeat}
-.nav_04{ display:block;
-	width:85px;
-	background:url(../images/bg_nav.png) 0 -105px no-repeat}
-.nav_05{ display:block;
-	width:85px;
-	background:url(../images/bg_nav.png) 0 -140px no-repeat}
+	background-position: 0 0}
 .nav_01:hover{
-	background:url(../images/bg_nav.png) 0 -175px no-repeat}
+	background-position: 0 -175px}	
+.nav_02{
+	width:165px;
+	background-position: 0 -35px}
 .nav_02:hover{
-	background:url(../images/bg_nav.png) 0 -210px no-repeat}
+	background-position: 0 -210px}	
+.nav_03{
+	width:85px;
+	background-position: 0 -70px}
 .nav_03:hover{
-	background:url(../images/bg_nav.png) 0 -245px no-repeat}
+	background-position: 0 -245px}	
+.nav_04{
+	width:85px;
+	background-position: 0 -105px}
 .nav_04:hover{
-	background:url(../images/bg_nav.png) 0 -280px no-repeat}
+	background-position: 0 -280px}	
+.nav_05{
+	width:85px;
+	background-position: 0 -140px}
 .nav_05:hover{
-	background:url(../images/bg_nav.png) 0 -315px no-repeat}
+	background-position: 0 -315px}
+.navigation ul{
+	display: none;
+	float: left;
+	position: absolute;			
+	left: 12px;
+	z-index:999;	
+	margin: 0}
+.navigation li:hover > ul{display: block}			
+.navigation ul a {
+	width:65px;
+	height:25px;
+	padding: 5px 6px 0 15px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:.813em;	
+	color: #000;
+	text-align:left;
+	text-decoration:none;		
+	background: #fff;
+	border:1px solid #000;
+	overflow:hidden}
+.navigation ul a:hover { color:#fff; background:#000; text-decoration:none}
+
+	
+	
 
 	/* 2.2 Banner
 -----------------------------------------------------------------------------------------------*/
-#container{}
-#banner{}
-#visitors{ padding-top:50px; font-size:0.75em; text-align:center}
+#container{
+	display:block;
+	width:775px}
+#banner{
+	display:block;
+	width:775px;
+	height:315px}
+#banner h3{ display:none}
+#visitors{
+	display:block; 
+    font-size:.813em; 
+	text-align:center}
+.visitors_left{ padding-right:10px}
+.visitors_right{ padding-left:10px}
+	
 
 	/* 2.3 footer
 -----------------------------------------------------------------------------------------------*/
-footer{}
-#sub_nav{}
-#copyright{}
+
 
 /* 3 about
 ===============================================================================================*/
