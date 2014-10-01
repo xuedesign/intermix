@@ -25,12 +25,11 @@ image{border:0}
 .clean{ clear:both}
 .hidden{ display:none}
 
-/* 2 index
+/* 2 首頁
 ===============================================================================================*/
 #wrap{ display:block; width:775px; margin:0 auto}
 
-	/* 2.1 header
------------------------------------------------------------------------------------------------*/
+/* 2.1 頂端區塊 */
 header{ display:block; width:775px; padding:10px 0 14px 0}
 h1 a{ display:block;
 	width:135px;
@@ -53,7 +52,7 @@ nav{
 .nav_01{
 	width:85px;
 	background-position: 0 0}
-.nav_01:hover{
+.nav_01:hover, .navigation li:hover a.nav_01{
 	background-position: 0 -175px}	
 .nav_02{
 	width:165px;
@@ -95,13 +94,10 @@ nav{
 	background: #fff;
 	border:1px solid #000;
 	overflow:hidden}
-.navigation ul a:hover { color:#fff; background:#000; text-decoration:none}
+.navigation ul a:hover{ color:#fff; background:#000; text-decoration:none}
 
 	
-	
-
-	/* 2.2 Banner
------------------------------------------------------------------------------------------------*/
+/* 2.2 首頁內容 */
 #container{
 	display:block;
 	width:775px}
@@ -116,14 +112,26 @@ nav{
 	text-align:center}
 .visitors_left{ padding-right:10px}
 .visitors_right{ padding-left:10px}
-	
-
-	/* 2.3 footer
------------------------------------------------------------------------------------------------*/
 
 
-/* 3 about
+
+/* 3 計畫介紹
 ===============================================================================================*/
+#box_about{
+	display:block;
+	padding-top:75px}
+#box_about h3{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1.125em;
+	line-height:25px;
+	padding-bottom:35px;
+	letter-spacing:1px}
+#box_about h4{ padding-bottom:5px}	
+#box_about p{
+	font-size:.813em;
+	line-height:22px;
+	padding-bottom:15px}
+
 /* 4 factory map
 ===============================================================================================*/
 /* 5 work
