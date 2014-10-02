@@ -52,27 +52,27 @@ nav{
 .nav_01{
 	width:85px;
 	background-position: 0 0}
-.nav_01:hover, .navigation li:hover a.nav_01{
+.nav_01:hover, .nav_01.navin, .navigation li:hover a.nav_01{
 	background-position: 0 -175px}	
 .nav_02{
 	width:165px;
 	background-position: 0 -35px}
-.nav_02:hover{
+.nav_02:hover, .nav_02.navin{
 	background-position: 0 -210px}	
 .nav_03{
 	width:85px;
 	background-position: 0 -70px}
-.nav_03:hover{
+.nav_03:hover, .nav_03.navin{
 	background-position: 0 -245px}	
 .nav_04{
 	width:85px;
 	background-position: 0 -105px}
-.nav_04:hover{
+.nav_04:hover, .nav_04.navin{
 	background-position: 0 -280px}	
 .nav_05{
 	width:85px;
 	background-position: 0 -140px}
-.nav_05:hover{
+.nav_05:hover, .nav_05.navin{
 	background-position: 0 -315px}
 .navigation ul{
 	display: none;
@@ -95,7 +95,6 @@ nav{
 	border:1px solid #000;
 	overflow:hidden}
 .navigation ul a:hover{ color:#fff; background:#000; text-decoration:none}
-
 	
 /* 2.2 首頁內容 */
 #container{
@@ -113,13 +112,11 @@ nav{
 .visitors_left{ padding-right:10px}
 .visitors_right{ padding-left:10px}
 
-
-
 /* 3 計畫介紹
 ===============================================================================================*/
 #box_about{
 	display:block;
-	padding-top:75px}
+	padding:75px 0 0 27px}
 #box_about h3{
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:1.125em;
@@ -134,11 +131,16 @@ nav{
 
 /* 4 factory map
 ===============================================================================================*/
-/* 5 work
+/* 5 portfolio
 ===============================================================================================*/
+#box_portfolio{
+	display:block;
+	width:745px;
+	padding:75px 0 0 30px}
+
+
 /* 6 exhibition
 ===============================================================================================*/
 /* 7 contact
 ===============================================================================================*/
-/* 8 403、404頁
-===============================================================================================*/
+
