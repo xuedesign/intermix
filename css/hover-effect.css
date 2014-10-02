@@ -1,0 +1,94 @@
+/* Portolio Hover */
+.da-thumbs li ,
+.da-thumbs li img {
+	display: block;
+	position: relative}
+.da-thumbs li {
+	overflow: hidden}
+.da-thumbs li article{
+	position: absolute;
+	background-image:url(../images/image_hover.png);
+	background-repeat:repeat;
+	width: 100%;
+	height: 100%}
+.da-thumbs li article.da-animate {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out}
+
+/* Initial state classes: */
+.da-slideFromTop {
+	left: 0px;
+	top: -100%}
+.da-slideFromBottom {
+	left: 0px;
+	top: 100%}
+.da-slideFromLeft {
+	top: 0px; 
+	left: -100%}
+.da-slideFromRight {
+	top: 0px;
+	left: 100%}
+/* Final state classes: */
+.da-slideTop {
+	top: 0px}
+.da-slideLeft {
+	left: 0px}
+.da-thumbs li  article a {
+	display:block;
+	color:#fff;
+	padding:20px}
+
+.da-thumbs {
+    text-align:center}
+
+.da-thumbs li  article h3{
+	font-family: 微軟正黑體,Microsoft JhengHei,新細明體,PMingLiU,Arial, Helvetica, sans-serif;
+	font-size:1.25em;
+	line-height:25px;
+    color:#fff;
+	letter-spacing:1px;
+    padding-top:15px}
+
+.da-thumbs li  article em{
+margin-bottom:10px;
+color:#fff;
+display:block}
+
+.da-thumbs li  article span{
+display:inline-block}
+
+span.link_post{
+display:block;
+position:absolute;
+bottom:13px;
+left:57px;
+width:35px;
+height:35px;
+cursor:pointer;
+background:url(../images/btn_linkpost.png) center no-repeat}
+
+
+.portfolio_2col article h3{
+padding-top:70px !important;
+}
+
+/* Image Grid */
+.image_grid {
+	float:left;
+	overflow:hidden;
+	width:745px;
+	position:relative}
+.image_grid li{
+	float: left;
+	line-height: 17px;
+	color: #686f74;
+	list-style:none;
+	overflow:hidden;
+	/*margin-bottom:23px;
+	margin-right:23px;*/
+	text-align:center}
+
+

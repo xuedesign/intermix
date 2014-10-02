@@ -1,5 +1,5 @@
 <!doctype html>
-<html><!-- InstanceBegin template="/Templates/pagemain_template.dwt" codeOutsideHTMLIsLocked="false" -->
+<html>
 <head>
 <meta charset="utf-8" lang="zh-tw">
 <meta name="description" content="暖工業、輕工藝計畫，是一種工業與工藝的混血，2014年集合微著設計與拙茁文創，共同開發一系列銅熨鈑結合竹材質的生活家飾."/>
@@ -7,9 +7,9 @@
 <meta name="Author" content="Intermix Project" />
 <link rel="shortcut icon"  href="../images/favicon.ico"/>
 <link rel="icon" href="../images/favicon.ico"/>
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>Contact│暖工業‧輕工藝計畫 Intermix Project</title>
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>暖工業‧輕工藝計畫 Intermix Project</title>
+<!-- TemplateEndEditable -->
 <link rel="stylesheet" href="../css/reset.css">
 <link rel="stylesheet" href="../css/xuedesign_201410.css"/>
 <link rel="stylesheet" href="../css/flexslider-02.css"/>
@@ -21,8 +21,8 @@
 <!--[if lte IE 6]>
 <script src="http://letskillie6.googlecode.com/svn/trunk/2/zh_TW.js"></script>
 <![endif]-->
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
 
 <body>
@@ -31,39 +31,35 @@
         	<div id="box_top">
               <h1><a href="../index.html" title="返回首頁">暖工業‧輕工藝計畫 Intermix Project</a></h1>
               <nav>
-                  <!-- InstanceBeginEditable name="main_nav" -->
+                  <!-- TemplateBeginEditable name="main_nav" -->
                   <ul class="navigation">  
                       <li><a href="#" title="關於計畫" class="nav_01">about</a>
                           <ul>
-                          	  <li><a href="project.html" title="計畫介紹">Project</a></li>
-                              <li><a href="designers.html" title="設計團隊">Designer</a></li>
+                          	  <li><a href="../content/project.html" title="計畫介紹">Project</a></li>
+                              <li><a href="../content/designers.html" title="設計團隊">Designer</a></li>
                           </ul>
                       </li>
-                      <li><a href="factory_list.html" title="加工廠介紹" class="nav_02">processing factory</a></li>
-                      <li><a href="portfolio_list.html" title="作品介紹" class="nav_03">portfolio</a></li>
-                      <li><a href="news_list.html" title="最新消息" class="nav_04">news</a></li>
-                      <li><a href="contact.html" title="聯絡我們" class="nav_05 navin">contact</a></li>
+                      <li><a href="../content/factory_list.html" title="加工廠介紹" class="nav_02">processing factory</a></li>
+                      <li><a href="../content/portfolio_list.html" title="作品介紹" class="nav_03">portfolio</a></li>
+                      <li><a href="../content/news_list.html" title="最新消息" class="nav_04">news</a></li>
+                      <li><a href="../content/contact.html" title="聯絡我們" class="nav_05">contact</a></li>
                   </ul>
-                  <!-- InstanceEndEditable -->
+                  <!-- TemplateEndEditable -->
               </nav>
             <br class="clean">
             </div>
         </header>
     	
         
-        <!-- InstanceBeginEditable name="main_content" -->
+        <!-- TemplateBeginEditable name="main_content" -->
     	<div id="container">
-    	    <div id="box_contant">
-               <ul>
-               	<li>/ 微著設計 /</li>
-               	<li>Phone: +886 975 643 341</li>
-               	<li>Mail: <a href="mailto:ivyyeh1008@gmail.com" rel="external">ivyyeh1008@gmail.com</a></li>
-               	<li>ADD: 臺北市內湖區內湖路3段115巷4弄7號4樓</li>
-               	<li>Facebook: <a href="https://www.facebook.com/weiijewel" rel="external">Www.facebook.com/weiijewel</a></li>
-               </ul>
-            </div>
-        </div>
-        <!-- InstanceEndEditable -->
+    	  <div id="box_about">
+    	    <h3>計畫介紹 / About Intermix project</h3>
+    	    <p>暖工業、輕工藝計畫，是一種工業與工藝的混血，2014年集合微著設計與拙茁文創，共同開發一系列銅熨鈑結合竹材質的生活家飾.銅與竹都會隨著時間、使用痕跡更增添質感的材質, 亦是混合媒材的組合. 紅銅是敏感且會呼吸的金屬, 竹節具有東方美學的樸質, 結合這兩者展現具當代特質的器物.</p>
+    	    <p>-Form Follow User, Play Combination-</p>
+  	    </div>
+  	  </div>
+      <!-- TemplateEndEditable -->
     	
         <p class="hidden">網站製作：開始設計工作室 xuedesign studio <a href="" title="" rel="external">http://www.xuedesign.tw/</a></p>
     </div>
@@ -72,4 +68,4 @@
 <script> $(window).load(function(){$(".flexslider").flexslider({animation:"slide"})}); </script>      
 <script src="../script/web_set.js"></script>  
 </body>
-<!-- InstanceEnd --></html>
+</html>

@@ -12,7 +12,7 @@ body{
 	margin: 0;
 	padding:0;
 	background-color:#FFF
-	font-family:"微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU",Arial, Helvetica, sans-serif;
+	font-family:微軟正黑體,Microsoft JhengHei,新細明體,PMingLiU,Arial, Helvetica, sans-serif;
 	font-size:100%;
 	line-height:20px;
 	color:#535353}
@@ -35,7 +35,7 @@ h1 a{ display:block;
 	width:135px;
 	height:130px;
 	float:left;
-	background:url(../images/logo.jpg);
+	background:url(../images/logo.png);
 	text-indent:-9999px}
 nav{ 
     display:block;
@@ -99,12 +99,15 @@ nav{
 /* 2.2 首頁內容 */
 #container{
 	display:block;
-	width:775px}
-#banner{
+	width:775px;
+	position:relative}
+#banner, #banner-02{
 	display:block;
 	width:775px;
-	height:315px}
-#banner h3{ display:none}
+	margin-top:20px}
+#banner{height:315px}	
+#banner-02{height:275px}	
+#banner h3, #banner-02 h3{ display:none}
 #visitors{
 	display:block; 
     font-size:.813em; 
@@ -116,7 +119,7 @@ nav{
 ===============================================================================================*/
 #box_about{
 	display:block;
-	padding:75px 0 0 27px}
+	padding:20px 0 0 27px}
 #box_about h3{
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:1.125em;
@@ -131,16 +134,82 @@ nav{
 
 /* 4 factory map
 ===============================================================================================*/
+.banner_info{
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	width:256px;
+	padding:0 35px 0 20px}
+.banner_info h4{
+	font-family:微軟正黑體,Microsoft JhengHei,新細明體,PMingLiU,Arial, Helvetica, sans-serif;
+	font-size:1.25em;
+	line-height:28px;
+	padding-bottom:5px}
+.banner_info ul{
+	padding-top:10px}
+.banner_info li{
+	font-size:.813em;
+	line-height:25px;
+	padding-bottom:3px}	
+
 /* 5 portfolio
 ===============================================================================================*/
 #box_portfolio{
 	display:block;
 	width:745px;
-	padding:75px 0 0 30px}
+	padding:20px 0 0 30px}
+#box_list{}
+#box_list li{
+	display:block;
+	float:left;
+	width:149px;
+	height:120px;
+	overflow:hidden}
+#box_list li img{ width:150px}
+#box_info{
+	display:block;
+	position:absolute;
+	top:285px;
+	left:0}
+#box_info h4{
+	font-family:微軟正黑體,Microsoft JhengHei,新細明體,PMingLiU,Arial, Helvetica, sans-serif;
+	font-size:1.25em;
+	line-height:35px;
+	letter-spacing:1px}
+#box_info li{
+	font-size:.813em;
+	line-height:22px;
+	padding-bottom:5px}
+.btn_back a{
+	display:block;
+	position:absolute;
+	top:380px;
+	right:0;
+	padding:5px 20px;
+	font-size:.938em;
+	background:#EEE;
+	color:#333;
+	text-decoration:none}
+.btn_back a:hover{
+	color:#FFF;
+	background:#333}				
 
-
-/* 6 exhibition
+/* 6 contact
 ===============================================================================================*/
-/* 7 contact
-===============================================================================================*/
-
+#box_contant{
+	display:block;
+	width:775px;
+	height:275px;
+	background: url(../images/pic_content-01.jpg) no-repeat;
+	margin-top:20px}
+#box_contant ul{
+	display:block;
+	padding:72px 0 0 25px}
+#box_contant li{
+	font-family:微軟正黑體,Microsoft JhengHei,新細明體,PMingLiU,Arial, Helvetica, sans-serif;
+	font-size:.813em;
+	line-height:30px}
+#box_contant a{ text-decoration:none}
+#box_contant a:visited{ text-decoration:none}
+#box_contant a:hover{ text-decoration:none}	

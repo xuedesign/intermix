@@ -10,4 +10,11 @@ function externalLinks() {
  } 
 } 
 window.onload = externalLinks;
+
+//滑動圖說
+jQuery(document).ready(function(){
+	jQuery(function() {
+		jQuery('ul.da-thumbs > li').hoverdir();
+	});
+	});
 	  
