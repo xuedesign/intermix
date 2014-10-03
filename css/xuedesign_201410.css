@@ -11,7 +11,7 @@
 body{
 	margin: 0;
 	padding:0;
-	background-color:#FFF
+	background-color:#FFF;
 	font-family:微軟正黑體,Microsoft JhengHei,新細明體,PMingLiU,Arial, Helvetica, sans-serif;
 	font-size:100%;
 	line-height:20px;
@@ -106,7 +106,7 @@ nav{
 	width:775px;
 	margin-top:20px}
 #banner{height:315px}	
-#banner-02{height:275px}	
+#banner-02{height:315px}	
 #banner h3, #banner-02 h3{ display:none}
 #visitors{
 	display:block; 
@@ -121,7 +121,6 @@ nav{
 	display:block;
 	padding:20px 0 0 27px}
 #box_about h3{
-	font-family:Verdana, Geneva, sans-serif;
 	font-size:1.125em;
 	line-height:25px;
 	padding-bottom:35px;
@@ -142,7 +141,7 @@ nav{
 	width:256px;
 	padding:0 35px 0 20px}
 .banner_info h4{
-	font-family:微軟正黑體,Microsoft JhengHei,新細明體,PMingLiU,Arial, Helvetica, sans-serif;
+	/*font-family:微軟正黑體,Microsoft JhengHei,新細明體,PMingLiU,Arial, Helvetica, sans-serif;*/
 	font-size:1.25em;
 	line-height:28px;
 	padding-bottom:5px}
@@ -166,17 +165,23 @@ nav{
 	width:149px;
 	height:120px;
 	overflow:hidden}
+#box_list h3{
+	font-size:1.063em;
+	line-height:25px;
+	font-weight:normal}	
 #box_list li img{ width:150px}
 #box_info{
 	display:block;
 	position:absolute;
-	top:285px;
-	left:0}
+	top:325px;
+	left:15px}
 #box_info h4{
-	font-family:微軟正黑體,Microsoft JhengHei,新細明體,PMingLiU,Arial, Helvetica, sans-serif;
+	/*font-family:微軟正黑體,Microsoft JhengHei,新細明體,PMingLiU,Arial, Helvetica, sans-serif;*/
 	font-size:1.25em;
 	line-height:35px;
-	letter-spacing:1px}
+	letter-spacing:1px;
+	padding-bottom:5px}
+#box_info ul{ /*padding-left:10px*/}	
 #box_info li{
 	font-size:.813em;
 	line-height:22px;
@@ -184,7 +189,7 @@ nav{
 .btn_back a{
 	display:block;
 	position:absolute;
-	top:380px;
+	top:430px;
 	right:0;
 	padding:5px 20px;
 	font-size:.938em;
@@ -207,7 +212,7 @@ nav{
 	display:block;
 	padding:72px 0 0 25px}
 #box_contant li{
-	font-family:微軟正黑體,Microsoft JhengHei,新細明體,PMingLiU,Arial, Helvetica, sans-serif;
+	/*font-family:微軟正黑體,Microsoft JhengHei,新細明體,PMingLiU,Arial, Helvetica, sans-serif;*/
 	font-size:.813em;
 	line-height:30px}
 #box_contant a{ text-decoration:none}
