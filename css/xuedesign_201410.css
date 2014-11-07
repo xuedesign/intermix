@@ -186,17 +186,18 @@ nav{
 	font-size:.813em;
 	line-height:22px;
 	padding-bottom:5px}
-.btn_back a{
+.btn_back a, .btn_back2 a{
 	display:block;
 	position:absolute;
-	top:430px;
 	right:0;
 	padding:5px 20px;
 	font-size:.938em;
 	background:#EEE;
 	color:#333;
 	text-decoration:none}
-.btn_back a:hover{
+.btn_back a{ top:430px;}
+.btn_back2 a{ top:450px;}	
+.btn_back a:hover, .btn_back2 a:hover{
 	color:#FFF;
 	background:#333}				
 
